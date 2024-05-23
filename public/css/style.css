@@ -1,0 +1,19 @@
+.content {
+    min-height: 100vh;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.color-black { 
+    color: black;
+}
+
+.bg-gray {
+    background-color: #E5E4E2;
+}
