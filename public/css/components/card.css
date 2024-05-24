@@ -1,0 +1,14 @@
+.card {
+    position: relative;
+    cursor: pointer;
+}
+
+.card .message span {
+    text-transform: capitalize;
+}
+
+.card .icon {
+    position: absolute;
+    top: 0;
+    right: 0.7rem;
+}

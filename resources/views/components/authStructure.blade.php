@@ -1,11 +1,5 @@
 @extends('components.body')
 
-@section('links')
-    @parent
-    <link rel="stylesheet" href="{{ asset('css/components/menu.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/components/header.css') }}">
-@endsection
-
 @section('header')
     <x-header/>
 @endsection
@@ -19,7 +13,7 @@
     
             <div class="col-10 bg-gray main-content">
                 <div class="container">
-                    main content
+                    @yield('main-content')
                 </div>
             </div>
         </div>

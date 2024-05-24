@@ -29,3 +29,7 @@
         </div>
     </div>
 </header>
+
+@push('css')
+    <link rel="stylesheet" href="{{ asset('css/components/header.css') }}">
+@endpush
